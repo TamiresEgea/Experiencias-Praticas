@@ -34,6 +34,7 @@ header{
     margin: 0px 0px 10px;
     background-color: var(--cor-menu);
     border-radius: 8px;
+    box-shadow: 0 0 5px black;
 }
 
 .menu li{
@@ -46,8 +47,8 @@ header{
     font-weight: bold;
 }
 
-.menu a :hover{
-    color:var(--cor-menu);
+a:hover{
+    color:var(--cor-fundo);
 }
 
 
@@ -92,6 +93,7 @@ h2{
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+    
 }
 
 .card{
@@ -160,11 +162,29 @@ footer{
 .caixa-formulario{
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 50px;;
    
 }
 
 h3{
     color: var(--cor-titulo-subtitulo);
     margin-top: 20px;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    
+}
+
+button{
+    background-color: var( --cor-titulo-subtitulo);
+    border: none;
+    color: #FFFFFF;
+    padding: 8px;
+    margin-top: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+
+
 }
