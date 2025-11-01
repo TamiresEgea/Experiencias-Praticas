@@ -2,6 +2,7 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root{
@@ -26,7 +27,7 @@ header{
 .menu{
     position: fixed;
     top: 0;
-    width: 90%;
+    width: 95%;
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -91,7 +92,7 @@ h2{
 
 .principios{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 50px;
     
 }
@@ -100,9 +101,10 @@ h2{
     background-color: var(--cor-fundo-card);
     border-radius: 8px;
     padding: 15px;
-    width: 30%;
+    width: 35%;
     margin: 20px;
     box-shadow: 0 0 5px black;
+    
 }
 
 .card li{
@@ -153,7 +155,7 @@ footer{
 .formulario{
     margin-top: 50px;
     padding: 15px;
-    width: 400px;
+    width: 600px;
     background-color: var(--cor-fundo-card);
     border-radius: 8px;
     font-size: 20px;
@@ -162,7 +164,7 @@ footer{
 .caixa-formulario{
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;;
+    margin-bottom: 50px;
    
 }
 
@@ -187,4 +189,9 @@ button{
     cursor: pointer;
 
 
+}
+
+input{
+    width: 200px;
+    height: 20px;
 }
