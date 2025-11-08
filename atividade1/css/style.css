@@ -91,7 +91,9 @@ h2{
 
 .principios{
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
     margin-top: 50px;
     
 }
@@ -100,10 +102,16 @@ h2{
     background-color: var(--cor-fundo-card);
     border-radius: 8px;
     padding: 10px;
-    width: 40%;
+    flex: 0 1 auto;
     margin: 10px;
     box-shadow: 0 0 5px black;
     
+}
+
+@media(max-width:700px){
+    .principios > .card:last-child{
+        flex:0 0 100%;
+    }
 }
 
 .card p{
